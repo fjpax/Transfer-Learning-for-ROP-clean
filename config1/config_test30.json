@@ -1,0 +1,30 @@
+{
+    "n_inputs":4,
+    "n_outputs" : 1,
+    "layer_sizes": [64,64,64],
+    "l1_lambda":0.001,
+    "l2_lambda" : 0.001,
+    "act_func" : "relu",
+    "loss_func" : "mse",
+    "output_activation" : "linear",
+    "l_r" : 0.0001,
+    "return_json" : "False",
+    "verbose":0,
+    
+  
+    "fig_path":"retraining.png",
+    "n_epochs":10000, 
+    "batch_size":10000,
+   
+
+    
+
+    "input_var_list":["Weight On Bit N", "Surface RPM c/s", "Pump Pressure - Stand Pipe Pa", "Mud Weight In kg/m3"],
+    "output_var_list":"Time Averaged ROP m/h",
+    "training_dfs":"F-11B_time_8.5in",
+    "data_type_depth_or_time":"time",
+    "train_percent":0.30
+
+}
+
+
