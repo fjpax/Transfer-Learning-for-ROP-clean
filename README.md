@@ -4,4 +4,6 @@ all json files under config 1 uses "F-11B_time_8.5in", and config 4 uses the sha
 
 configurations under the same config folder only differs on the data split percentage.
 
+Config_NEwmodel.json files are used for retraining a new model with the same architecture
+
 From the retrain1.ipynb, just look for the two cells which states "configurations" so you will see what to change in order to run. 
