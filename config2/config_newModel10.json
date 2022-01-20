@@ -11,7 +11,6 @@
     "return_json" : "False",
     "verbose":0,
     
-  
     "fig_path":"squaresMSE.png",
     "n_epochs":1000, 
     "batch_size":10000,
